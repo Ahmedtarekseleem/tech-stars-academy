@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="website icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/homepage.css">
+    <title>TechStars | Build Innovators</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav>
+            <div class="identity">
+                <div class="img-container">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <span>TechStars</span>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="#">Competitions</a></li>
+                </ul>
+            </div>
+            <div class="register-btns">
+                <a href="register.html"><button class="btn-log">Log In</button></a>
+                <a href="register.html"><button class="btn-join">Join For Free</button></a>
+            </div>
+        </nav>
+
+        <div class="hidden-items hidden-nav" style="transition: 0.7s;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Competitions</a></li>
+                <li>
+                    <a href="register.html"><button class="btn-log">Log In</button></a>
+                </li>
+                <li>
+                    <a href="register.html"><button class="btn-join">Join For Free</button></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid hero">
+        <img src="images/Hero.png" width="100%" alt="">
+        <div class="hero-content">
+            <h2>Building Future Innovators</h2>
+            <h3>Anywhere, Anytime</h3>
+        </div>
+    </div>
+
+    <div class="container slider">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="images/1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/4.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/5.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/6.jpg">
+            </div>
+        </div>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+
+    <div class="container popular">
+        <h2>Most Popular Courses ></h2>
+        <div class="grid-container">
+            <div>
+                <div class="wrapper">
+                    <h1>Problem Solving Level 1</h1>
+                </div>
+                <img src="images/ps.jpg" width="100%" height="100%">
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h1>Problem Solving Level 2</h1>
+                </div>
+                <img src="images/ps.jpg" width="100%" height="100%">
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h1>C++ Prgramming Fundamentals</h1>
+                </div>
+                <img src="images/c++.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container popular">
+        <h2>Newest Courses ></h2>
+        <div class="grid-container">
+            <div>
+                <div class="wrapper">
+                    <h1>Web Development</h1>
+                </div>
+                <img src="images/wd.webp" width="100%" height="100%">
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h1>Graphic Design</h1>
+                </div>
+                <img src="images/graphic-design.jpg" width="100%" height="100%">
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h1>Cyber Security</h1>
+                </div>
+                <img src="images/cs.jpg" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>TechStars Academy is an organization led by experts in Information Technology, specializing in areas
+                    like programming, cybersecurity, networking, and AI. Our team excels in leadership, presentation,
+                    and entrepreneurship, with a clear vision to cultivate a generation equipped with both essential IT
+                    skills and the soft skills required in today's job market. Guided by our slogan, "Building Future
+                    Innovators, Anywhere, Anytime," we are committed to preparing the innovators of tomorrow.</p>
+            </div>
+            <video controls autoplay muted>
+                <source src="images/about.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="partners">
+        <div class="container">
+            <h2>Partners</h2>
+            <div class="grid-partners">
+                <div>
+                    <img src="images/wannacry.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div>
+                    <img src="images/n.jpg" width="100%" height="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-google"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="sub-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Competitions</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <section>
+        Designed By: <span>TechStars Team</span>
+    </section>
+
+    <script src="scripts/homepage.js"></script>
+</body>
+
+</html>

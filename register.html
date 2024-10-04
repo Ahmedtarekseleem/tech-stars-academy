@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles/register.css">
+    <title>TechStars | Join Us</title>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo.png" width="75px" height="70px" alt="">
+        TechStars
+    </nav>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Sign In</label>
+                <label for="signup" class="slide signup">Register</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <h2 class="text-center mt-4">Sign In To Your Account</h2>
+                    <p class="text-center" style="font-size: 12px;">Building Future Innovators, Anywhere, Anytime</p>
+                    <div class="field">
+                        <input type="number" placeholder="National ID" required>
+                    </div>
+                    <div class="field pass-field">
+                        <input type="password" id="pass1" placeholder="Password" required>
+                        <i class="fa-solid fa-eye toggle-icon" data-target = "pass1"></i>
+                    </div>
+                    <div class="pass-link"><a href="change-pass.html">Forgot password?</a></div>
+                    <!--Forget-->
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+                </form>
+                <form action="#" class="signup">
+                    <h2 class="text-center mt-4">Create Account</h2>
+                    <p class="text-center" style="font-size: 12px;">Building Future Innovators, Anywhere, Anytime</p>
+                    <div class="field">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="number" placeholder="Phone Number" required>
+                    </div>
+                    <div class="field">
+                        <input type="number" placeholder="National ID" required>
+                    </div>
+                    <div class="field password-sign-up">
+                        <div class="pass-field">
+                            <input type="password" id="pass2" placeholder="Password" required>
+                            <i class="fa-solid fa-eye toggle-icon" data-target="pass2"></i>
+                        </div>
+                        <div class="pass-field">
+                            <input type="password" id="pass3" placeholder="Confirm Pass.." required>
+                            <i class="fa-solid fa-eye toggle-icon" data-target="pass3"></i>
+                        </div>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+
+</html>

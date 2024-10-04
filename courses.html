@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- start bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawosme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- start main css -->
+
+    <link rel="stylesheet" href="styles/homepage.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- start navbar -->
+
+    <div class="nav-container">
+        <nav>
+            <div class="identity">
+                <div class="img-container">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <span>TechStars</span>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="#">Competitions</a></li>
+                </ul>
+            </div>
+            <div class="register-btns">
+                <a href="register.html"><button class="btn-log">Log In</button></a>
+                <a href="register.html"><button class="btn-join">Join For Free</button></a>
+            </div>
+        </nav>
+
+        <div class="hidden-items hidden-nav" style="transition: 0.7s;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Competitions</a></li>
+                <li>
+                    <a href="register.html"><button class="btn-log">Log In</button></a>
+                </li>
+                <li>
+                    <a href="register.html"><button class="btn-join">Join For Free</button></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <main class="container pt-5">
+
+        <!--start my courses  -->
+
+        <div class=" section-padding ">
+            <h2 class=" text-center my-courses-header w-100 pb-3">My Course</h2>
+
+            <ul class="nav nav-pills mb-2  w-fit justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link active text-black bg-white" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">
+                        Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black bg-white" id="pills-Wishlist-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-Wishlist" type="button" role="tab" aria-controls="pills-Wishlist"
+                        aria-selected="false" tabindex="-1">Wishlist</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black bg-white" id="pills-Completed-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-Completed" type="button" role="tab" aria-controls="pills-Completed"
+                        aria-selected="false" tabindex="-1">Completed</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+
+                    <section>
+                        <div class="section-heading">
+
+                            <h4>My Course</h4>
+                            <h5>List of your courses</h5>
+                        </div>
+
+                        <div class="row gy-4">
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <a href="details.html" class="text-decoration-none">
+                                <div class="text-black text-decoration-none">
+
+                                    <div class="position-relative">
+                                        <div class="position-absolute more-bg ">
+                                            <img src="images/more_vert_24px.svg" class=" " alt="">
+
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <h5>Not Yet Started</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                    
+                        </div>
+                    </section>
+
+                </div>
+                <div class="tab-pane fade" id="pills-Wishlist" role="tabpanel" aria-labelledby="pills-Wishlist-tab"
+                    tabindex="0">
+
+
+                    <section class="mt-4">
+
+                        <div class="row gy-5">
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div>
+
+                                    <div class="position-relative">
+
+                                        <div class="position-absolute best-seller  ">
+                                            <p class="text-white d-inline-block">Best Seller</p>
+
+                                            <p class="text-white d-inline-block" style="background-color: #A04AE3;">20%
+                                                OFF</p>
+                                        </div>
+                                        <div class="position-absolute more-bg ">
+                                            <i class="fa-solid fa-heart text-danger"></i>
+                                        </div>
+
+                                        <img src="images/2865041df3ac26b9b339b24e61ba8313.png" class="card-img w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4>Wordpress Course Intermediate</h4>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-regular fa-user mb-2 me-2 fs-5"></i>
+                                            <h4>Kitani Studio</h4>
+
+                                        </div>
+                                        <p class=" mb-0">More than 8yr Experience as Illustrator. Learn how to becoming
+                                            professional Illustrator Now...</p>
+
+                                        <div class="stars">
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star"></i>
+                                            <i class="fa-solid  fa-star-half-stroke"></i>
+                                            <span>(1.2K)</span>
+                                        </div>
+                                        <span class="d-inline-block fs-4">$24.92</span>
+                                        <span>
+
+                                            <del class="fs-5">$23</del>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 justify-content-center d-flex mt-5">
+                                <a href="#" class="wishlist-button text-decoration-none">Explore Courses</a>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-Completed" role="tabpanel" aria-labelledby="pills-Completed-tab"
+                    tabindex="0">
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!--end my courses  -->
+    </main>
+
+    
+    <!-- start footer -->
+
+    <footer>
+        <div class="icons">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-google"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="sub-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Competitions</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <section class="foooter-bottom">
+        Designed By: <span>TechStars Team</span>
+    </section>
+
+
+    <!-- end footer -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="scripts/homepage.js"></script>
+</body>
+
+</html>

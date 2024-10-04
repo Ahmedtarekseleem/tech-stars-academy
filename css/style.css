@@ -1,0 +1,218 @@
+@font-face {
+    font-family: gilory-regular;
+    src: url(../fonts/Gilroy-Regular.ttf);
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: gilory-bold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: 700;
+
+}
+
+@font-face {
+    font-family: gilory-thin;
+    src: url(../fonts/Gilroy-Thin.ttf);
+    font-weight: 200;
+
+}
+
+@font-face {
+    font-family: gilory-light;
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-weight: 300;
+
+}
+
+
+/* start navbar */
+
+/* end navbar */
+
+
+/* start my courses section */
+.card-img {
+    border-radius: 28px;
+}
+
+.more-bg {
+    display: flex;
+    background-color: #808B96;
+    border-radius: -111px;
+    top: 6%;
+    width: 24px;
+    height: 24px;
+    left: 87%;
+    padding: 4px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 80px;
+}
+
+.section-heading {
+    padding-bottom: 20px;
+}
+
+.section-heading h5 {
+    font-family: gilory-regular;
+    color: var(--Object-Black-60, rgba(27, 27, 27, 0.60));
+    font-size: 16px;
+}
+
+.section-heading h4 {
+    font-family: gilory-bold;
+    font-size: 20px;
+}
+
+.card-text h4:nth-child(1) {
+    font-family: gilory-bold;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.card-text div h4 {
+    color: #344CCD;
+    font-family: gilory-bold;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card-text h5 {
+    font-family: gilory-light;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section {
+    padding: 12px;
+    background-color: unset;
+    text-align: unset;
+    color: unset;
+    font-family: sans-serif;
+}
+
+.tab-pane.fade.active.show {
+    background-color: unset;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+}
+
+.stars i {
+    color: #FFD130;
+}
+
+del {
+    font-family: gilory-bold;
+}
+
+.best-seller p {
+    margin-bottom: 0;
+    background-color: #415FFF;
+    border-radius: 23px;
+
+    padding: 8px;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: gilory-bold;
+}
+
+.best-seller {
+
+    top: 4%;
+    left: 4%;
+
+}
+
+.wishlist-button {
+    text-align: center;
+    width: 271.13px;
+    height: 47.234px;
+    padding: 12px 24px;
+    background-color: #415FFF;
+    color: white;
+    border-radius: 51px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: gilory-bold;
+}
+
+.my-courses-header {
+
+    font-size: 20px;
+    font-weight: 700;
+    font-family: gilory-bold;
+}
+
+.bg-join {
+    background-position: center;
+    min-height: 173.327px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Frame\ 42.svg);
+    width: 100%;
+}
+
+.bg-join .row .col-lg-7 p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 24px;
+    font-weight: 400;
+
+    font-family: gilory-regular;
+
+}
+
+.bg-join .row .col-lg-5 input::placeholder {
+    color: rgba(249, 249, 249, 0.6);
+}
+
+.bg-join .row .col-lg-5 button {
+    
+    padding: 10px 18px;
+    border-radius: 3px;
+    background: #344CCD;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: gilory-bold;
+}
+
+.bg-join .row .col-lg-5 input {
+    margin-right: 20px;
+
+    background: rgba(249, 249, 249, 0.30);
+    max-width: 243px;
+    max-height: 41px;
+    border-radius: 3px;
+}
+
+.bg-join .row .col-lg-7 h3 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: gilory-bold;
+}
+
+footer {
+    margin-top: 3%;
+}
+
+/* end my courses section */
+
+
+/* start footer */
+.foooter-bottom {
+    background: #0D2F46;
+    color: white;
+    text-align: center;
+}
+
+/* end footer */

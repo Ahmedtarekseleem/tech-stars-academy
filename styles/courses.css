@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: herofont;
+    src: url(../images/OPTIFob-DemiBold.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: idnfont;
+    src: url(../images/ethnocentric\ rg.otf);
+    font-weight: 600;
+}
+
+.nav-container {
+    background-color: #283eb7;
+}
+
+nav {
+    padding: 0.4rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .identity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .identity .img-container {
+    padding: 5px;
+    border: 2px solid #283eb7;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 20px #283eb7;
+}
+
+nav .identity .img-container img {
+    width: 55px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+nav .identity span {
+    font-size: 27px;
+    font-family: idnfont;
+    color: white;
+}
+
+nav .nav-toggle {
+    display: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+nav .nav-toggle i {
+    font-size: 24px;
+    color: white;
+}
+
+nav .breadcrumbs ul {
+    display: flex;
+    list-style-type: none;
+    gap: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+nav .breadcrumbs ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .register-btns a button {
+    width: 130px;
+    padding: 2px;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+nav .register-btns a .btn-log {
+    color: white;
+    background-color: transparent;
+}
+
+nav .register-btns a .btn-container {
+    background-color: white;
+    color: #283eb7;
+}
+
+.hidden-nav {
+    height: 0;
+    overflow: hidden;
+}
+
+.visible-nav {
+    height: 185px;
+    overflow: visible;
+}
+
+.hidden-items ul {
+    list-style: none;
+    text-align: center;
+}
+
+.hidden-items ul li {
+    margin-bottom: 10px;
+}
+
+.hidden-items ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden-items ul li a button {
+    width: 130px;
+    padding: 2px;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.hidden-items ul li a .btn-log {
+    color: white;
+    background-color: transparent;
+}
+
+.hidden-items ul li a .btn-container {
+    background-color: white;
+    color: #283eb7;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1048px) {
+
+    nav .breadcrumbs,
+    nav .register-btns {
+        display: none;
+    }
+
+    nav .nav-toggle {
+        display: block;
+    }
+}
+
+
+.hero {
+    position: relative;
+    padding: 0;
+}
+
+.hero .hero-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .hero-content h1{
+    color: white;
+    font-family: herofont;
+    text-align: center;
+    font-size: 105px;
+}
+
+@media (max-width: 785px) {
+    .hero .hero-content h1 {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 623px) {
+    .hero .hero-content h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 460px) {
+    nav .identity span {
+        display: none;
+    }
+
+    nav .identity .img-container img {
+        width: 75px;
+        height: 70px;
+        margin-top: 5px;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 38px;
+    }
+}
+
+.complete{
+    background-color: #d9d9d9;
+    padding: 50px 20px 40px 0;
+}
+
+.complete .complete-text{
+    padding-left: 35px;
+}
+
+.complete .complete-text h3,
+.container .pagination-text h3{
+    font-weight: bold;
+}
+
+.complete .complete-text p,
+.container .pagination-text p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.complete .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px;
+    padding-left: 35px;
+    gap: 20px;
+    background-color: #415fff;
+    border-radius: 0 30px 30px 0;
+}
+
+.complete .grid-container div{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+    width: auto !important;
+}
+
+.complete .grid-container div .card-body p span{
+    font-size: 14px;
+}
+
+.complete .grid-container div .card-body p:nth-child(3) span{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 16px;
+}
+
+.complete .grid-container .complete-btn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: transparent;
+}
+
+.complete .grid-container .complete-btn button{
+    width: 80%;
+    padding-block: 10px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 8px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: 0.6s;
+    font-size: 20px;
+} 
+
+@media (max-width: 1277px){
+    .complete .grid-container .card:nth-child(3){
+        display: none;
+    }
+}
+
+@media (max-width: 870px){
+    .complete .grid-container .card:nth-child(2){
+        display: none;
+    }
+}
+
+.complete .grid-container .complete-btn button:hover{
+    background-color: white;
+    color: #415fff;
+}
+
+.complete .grid-container div img{
+    border-radius: 10px;
+}
+
+.complete .grid-container div .wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 10px;
+}
+
+.complete .grid-container div .wrapper h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 45px;
+    text-align: center;
+}
+
+.about{
+    margin-top: 6%;
+}
+
+.about .container .about-text{
+    text-align: center;
+}
+
+.about .container .about-text h1{
+    font-family: idnfont;
+}
+
+.about .container .about-text p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 18px;
+}
+
+.about .container video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 10px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.nav-item {
+    color: #283eb7;
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 14px;
+    height: 100px;
+    cursor: pointer;
+    padding: 6px;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nav-item.active {
+    background-color: #eee;
+    border: 1px solid #415fff;
+}
+
+.content-item {
+    display: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.content-item.active {
+    display: block;
+}
+
+.page-item {
+    display: none;
+}
+
+.page-item.active {
+    display: block;
+}
+
+.pagination {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pagination button.active {
+    color: #415fff;
+    border: 1px solid #415fff;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.content-grid .card{
+    width: auto !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+        flex: none;
+    }
+
+    .pagination {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pagination button {
+        margin: 5px 0;
+        flex: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-item, .pagination button {
+        padding: 10px;
+    }
+}
+
+
+.join{
+    margin-top: 10%;
+    background-color: #2249d1;
+    padding: 2.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.container .join h2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.container .join h4{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    color: #95a7e8;
+    font-style: normal;
+}
+
+.container .join form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.container .join form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgb(212, 212, 212);
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container .join form input[type='email']{
+    background-color: #ffffff47;
+}
+
+.container .join form input[type='sumbit']{
+    width: 115px;
+    padding: 10px 20px;
+    background-color: #3dcbb1;
+    color: white;
+    font-weight: bold;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+@media (max-width: 775px){
+    .join{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 390px){
+    .container .join form{
+        flex-direction: column;
+    }
+    .container .join h2{
+        font-size: 37px;
+    }
+}
+
+footer{
+    margin-top: 5%;
+    background-color: #0f3b59;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer .icons div{
+    padding: 8px 17px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: xx-large;
+}
+
+footer .separator{
+    display: none;
+    border: 2px solid gray;
+}
+
+footer .sub-nav{
+    padding-top: 25px;
+}
+
+footer .sub-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sub-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: idnfont;
+}
+
+@media (max-width: 940px){
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer .separator{
+        display: block;
+    }
+    footer .icons{
+        flex-direction: column;
+    }
+    footer .sub-nav ul{
+        flex-direction: column;
+        gap: 138px;
+    }
+}
+
+section{
+    padding: 12px;
+    background-color: #0d2f46;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+section span{
+    font-family: idnfont;
+}
